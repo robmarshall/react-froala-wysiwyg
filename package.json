@@ -1,5 +1,5 @@
 {
-  "name": "react-froala-wysiwyg",
+  "name": "react-froala-wysiwyg-zen",
   "version": "4.5.2",
   "description": "React component for Froala WYSIWYG HTML rich text editor.",
   "main": "index.js",
@@ -60,7 +60,7 @@
   "scripts": {
     "build": "webpack-cli --mode=development && webpack-cli --mode=production",
     "demo": "cd demo && webpack-cli --mode=development && \"../node_modules/.bin/webpack-dev-server\" --mode development --allowed-hosts all --port 4000 --host 0.0.0.0 --static dist/",
-    "prepublishOnly": "npm run build && bash lib/copy_bundles.sh"
+    "prepublishOnly": "npm run build"
   },
   "repository": {
     "type": "git",
