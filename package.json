@@ -1,6 +1,6 @@
 {
   "name": "react-froala-wysiwyg-zen",
-  "version": "4.5.3",
+  "version": "4.5.5",
   "description": "React component for Froala WYSIWYG HTML rich text editor.",
   "main": "index.js",
   "types": "./lib/index.d.ts",
