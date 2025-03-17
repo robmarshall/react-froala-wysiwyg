@@ -4,4 +4,3 @@ docker-compose.yml.template
 Dockerfile
 push-image-to-nexus.sh
 version.json
-dist

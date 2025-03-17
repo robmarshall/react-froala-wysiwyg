@@ -15,7 +15,7 @@ declare module "react-froala-wysiwyg-zen" {
   }
 }
 
-declare module "react-froala-wysiwyg/FroalaEditorView" {
+declare module "react-froala-wysiwyg-zen/FroalaEditorView" {
   export interface MyComponentProps {
     tag?: string;
     config?: object;
@@ -27,7 +27,7 @@ declare module "react-froala-wysiwyg/FroalaEditorView" {
   export default class FroalaEditorView extends React.Component<MyComponentProps> {}
 }
 
-declare module "react-froala-wysiwyg/FroalaEditorImg" {
+declare module "react-froala-wysiwyg-zen/FroalaEditorImg" {
   export interface MyComponentProps {
     tag?: string;
     config?: object;
@@ -39,7 +39,7 @@ declare module "react-froala-wysiwyg/FroalaEditorImg" {
   export default class FroalaEditorImg extends React.Component<MyComponentProps> {}
 }
 
-declare module "react-froala-wysiwyg/FroalaEditorA" {
+declare module "react-froala-wysiwyg-zen/FroalaEditorA" {
   export interface MyComponentProps {
     tag?: string;
     config?: object;
@@ -50,7 +50,7 @@ declare module "react-froala-wysiwyg/FroalaEditorA" {
   }
   export default class FroalaEditorA extends React.Component<MyComponentProps> {}
 }
-declare module "react-froala-wysiwyg/FroalaEditorButton" {
+declare module "react-froala-wysiwyg-zen/FroalaEditorButton" {
   export interface MyComponentProps {
     tag?: string;
     config?: object;
@@ -61,7 +61,7 @@ declare module "react-froala-wysiwyg/FroalaEditorButton" {
   }
   export default class FroalaEditorButton extends React.Component<MyComponentProps> {}
 }
-declare module "react-froala-wysiwyg/FroalaEditorInput" {
+declare module "react-froala-wysiwyg-zen/FroalaEditorInput" {
   export interface MyComponentProps {
     tag?: string;
     config?: object;
